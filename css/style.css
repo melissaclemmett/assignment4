@@ -29,11 +29,11 @@ a:link {
   text-decoration: none;
 }
 
-a.headerlink {
+a.headerLink {
   color: #033048;
 }
 
-a.sectionlink {
+a.sectionLink {
   color: white
 }
 
@@ -45,7 +45,7 @@ main.blog div section a:hover {
   color: red;
 }
 
-aside.right section div img.highlight:hover {
+.sidebar section div img.highlight:hover {
   background-color: red;
 }
 
@@ -187,7 +187,7 @@ main.blog div section a {
   text-align: right;
 }
 
-aside.right {
+.sidebar {
   width: 240px;
   height: auto;
   border-color: red;
@@ -216,9 +216,6 @@ aside p {
   font-weight: 300;
   font-size: 16px;
   line-height: 18px;
-}
-
-aside p:hover {
   color: #033048;
 }
 
@@ -259,7 +256,7 @@ section {
   align-items: center;
 }
 
-.end_space {
+.endSpace {
   display: flex;
   flex-direction: column;
   height: 50px;
@@ -319,4 +316,8 @@ footer p {
   font-size: 9px;
   font-weight: 600;
   padding-top: 5px;
+}
+
+.hide {
+  display: none;
 }
